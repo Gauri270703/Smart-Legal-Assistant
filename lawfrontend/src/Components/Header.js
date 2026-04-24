@@ -8,7 +8,7 @@ import "../Css/Header.css";
 
 const Header = ({ user, setUser }) => {
   const navigate = useNavigate();
-  const location = useLocation(); // ⭐ important
+  const location = useLocation(); 
 
   // ✅ LOGOUT
   const handleLogout = () => {
