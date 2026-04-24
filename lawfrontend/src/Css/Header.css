@@ -1,0 +1,22 @@
+/* All nav links default white */
+.custom-nav .nav-link {
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+/* First three links → gold text on hover */
+.custom-nav .nav-link:not(.hover-btn):hover {
+  color: #D4AF37 !important;
+}
+
+/* Register & Login normal state */
+.hover-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+/* Register & Login hover state */
+.hover-btn:hover {
+  background-color: #D4AF37;
+  color: black !important;
+}

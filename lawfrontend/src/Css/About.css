@@ -1,0 +1,36 @@
+.about-container {
+  padding: 60px 10%;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  color: #141e2e;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #D4AF37;
+  margin-top: 10px;
+}
+
+.about-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}

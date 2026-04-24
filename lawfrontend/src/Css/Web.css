@@ -1,0 +1,32 @@
+/* LegalPolicies.css */
+.legal-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.legal-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0a0330;
+}
+
+.legal-container section {
+  margin-bottom: 30px;
+}
+
+.legal-container section h2 {
+  color: #947614;
+  margin-bottom: 15px;
+}
+
+.legal-container section p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}

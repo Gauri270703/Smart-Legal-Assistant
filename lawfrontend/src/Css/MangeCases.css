@@ -1,0 +1,94 @@
+/* Container for this component only */
+.manage-cases-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff; /* white background for the main box */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Each section */
+.manage-cases-container .case-section {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.manage-cases-container h2 {
+  text-align: center;
+  color: #0d47a1; /* dark blue heading */
+  margin-bottom: 25px;
+}
+
+.manage-cases-container h3 {
+  margin-bottom: 15px;
+  color: #1565c0; /* lighter blue */
+  font-size: 1.2rem;
+}
+
+/* Inputs and select fields */
+.manage-cases-container input,
+.manage-cases-container select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px; /* spacing after each field */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+/* File input */
+.manage-cases-container input[type="file"] {
+  padding: 5px;
+  margin-bottom: 15px; /* spacing after file input */
+}
+
+/* Buttons */
+.manage-cases-container button {
+  background-color: #0d47a1; /* dark blue button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 25px; /* more spacing after button */
+}
+
+.manage-cases-container button:hover {
+  background-color: #1565c0; /* lighter dark blue on hover */
+  transform: scale(1.05);
+}
+
+/* Links for uploaded files */
+.manage-cases-container a {
+  color: #0d47a1;
+  text-decoration: none;
+}
+
+.manage-cases-container a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraphs inside sections */
+.manage-cases-container p {
+  background: #f1f1f1;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Add spacing between sections */
+.manage-cases-container > div {
+  margin-bottom: 30px;
+}

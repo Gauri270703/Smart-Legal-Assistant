@@ -1,0 +1,51 @@
+.feature-container {
+  padding: 60px;
+  background-color: #f4f6f9;
+}
+
+.feature-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #141e2e;
+  font-size: 32px;
+}
+
+/* Card Style */
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 0 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 30px;
+}
+
+.feature-card h3 {
+  color: #D4AF37;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #555;
+  font-size: 20px;
+}
+
+.slick-dots li button:before {
+  content: '';
+}
+
+.slick-dots li button {
+  width: 14px;
+  height: 14px;
+  background: #ccc;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+
+.slick-dots li.slick-active button {
+  width: 22px;
+  background: #D4AF37;
+  border-radius: 10px;
+}
+

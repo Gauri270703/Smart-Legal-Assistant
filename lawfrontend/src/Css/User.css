@@ -1,0 +1,77 @@
+/* ===== User Page ===== */
+.user-page {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh; /* adjust as needed */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* start from top */
+  align-items: center;
+  padding: 50px 20px;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+/* Heading and text */
+.user-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.user-text {
+  max-width: 600px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+/* ===== Cards Section ===== */
+.user-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.user-card {
+  background-color: rgba(20, 30, 46, 0.85); /* semi-transparent dark */
+  color: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.user-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.user-card p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.user-card button {
+  background-color: #D4AF37;
+  color: #141e2e;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.user-card button:hover {
+  background-color: #b38f2f;
+}

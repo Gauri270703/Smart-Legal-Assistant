@@ -1,0 +1,158 @@
+/* ===== IMAGE SECTION ===== */
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.main-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.image-text {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #423405;
+  font-family: "Inria Serif";
+}
+
+.image-text h1 {
+  font-size: 40px;
+}
+
+.image-text p {
+  font-size: 25px;
+}
+
+
+/* ===== CLIENT & LAWYER SECTION ===== */
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.Client,
+.Lawyer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 20px;
+  width: 45%;
+  min-height: 300px;
+  box-sizing: border-box;
+  transition: 0.4s ease;
+  border-radius: 8px;
+}
+
+.Client:hover,
+.Lawyer:hover {
+  background-color: #09072b;
+  color: white;
+}
+
+.Client p,
+.Lawyer p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+
+/* ===== DEPARTMENT SECTION ===== */
+
+.department-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+   margin-bottom: 80px;
+}
+.department-card {
+  width: 32%;
+  min-width: 280px;   /* IMPORTANT FIX */
+  text-align: center;
+}
+
+.department-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dept-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #2b6cb0, #1e3c72);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+
+  /* FIX */
+  white-space: normal;      /* allow text to wrap */
+  word-break: break-word;   /* break long words if needed */
+  text-align: center;
+}
+
+.dept-btn:hover {
+  background: linear-gradient(to right, #1e3c72, #2b6cb0);
+}
+
+
+/* ===== POPUP ===== */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.popup-box button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #1e3c72;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.popup-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  max-height: 400px;
+  overflow-y: auto;   /* enables scroll */
+  text-align: left;
+}
