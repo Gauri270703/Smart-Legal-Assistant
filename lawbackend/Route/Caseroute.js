@@ -11,4 +11,4 @@ router.get("/cases", getCases);
 router.get("/search/:title", searchCase);
 router.delete("/delete/:id", deleteCase);
 
-module.exports = router;
+module.exports = router; 
